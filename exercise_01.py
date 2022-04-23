@@ -18,7 +18,7 @@ def less_than(a):
 ### For this exercise, work within this class. This is something you will come up with on your own soon ###
 
 class MainTest(unittest.TestCase):
-    # tests go here !
+    # tests go here!
     def test_min(self):
         self.assertEqual(min([3,2,5,-2]), -2)
         self.assertEqual(min([3,0,0, 0.25]), 0)
