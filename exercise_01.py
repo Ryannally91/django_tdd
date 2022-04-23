@@ -14,7 +14,7 @@ def sum_list(l):
     return total
 def less_than(a):
     # Should return a bool of whether given value is less than 100
-    return a < 100
+    return  a < 100
 ### For this exercise, work within this class. This is something you will come up with on your own soon ###
 
 class MainTest(unittest.TestCase):
